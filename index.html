@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CleanCity | Smart Waste Management</title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top"><div class="brand"><span class="logo">♻</span><div><b>CleanCity</b><small>SMART WASTE MANAGEMENT</small></div></div><span class="sdg">SDG 11 · Sustainable Cities</span></header>
+<main>
+<section class="hero"><div><p class="eyebrow">CLEANER STREETS. SMARTER COMMUNITIES.</p><h1>Make your neighbourhood<br><em>cleaner, together.</em></h1><p class="sub">Report waste hotspots, track collection progress and help build a more sustainable city.</p><button class="primary" onclick="document.querySelector('#reportForm').scrollIntoView({behavior:'smooth'})">＋ Report an issue</button></div><div class="hero-art"><div class="big-recycle">♻</div><div class="art-tag">Small actions<br><b>BIG IMPACT</b></div></div></section>
+<section class="stats"><article><span>Reports submitted</span><b id="total">0</b><small>Community contributions</small></article><article><span>Resolved reports</span><b id="resolved">0</b><small>Cleaner spaces</small></article><article><span>Open reports</span><b id="open">0</b><small>Need attention</small></article></section>
+<div class="layout"><section class="panel" id="reportForm"><div class="section-head"><div><p class="eyebrow">COMMUNITY ACTION</p><h2>Report waste</h2></div><span class="pill">New report</span></div>
+<form id="form"><label>Location / area<input id="location" required placeholder="e.g. MAIT main gate"></label><label>Waste category<select id="category"><option>Plastic waste</option><option>Household waste</option><option>Construction debris</option><option>Organic waste</option><option>Electronic waste</option><option>Other</option></select></label><label>Describe the issue<textarea id="description" required rows="3" placeholder="Briefly describe what you noticed..."></textarea></label><button class="primary full">Submit report</button></form><p class="hint">Demo project: reports are stored in this browser using local storage.</p></section>
+<section class="panel reports"><div class="section-head"><div><p class="eyebrow">LIVE COMMUNITY FEED</p><h2>Recent reports</h2></div><select id="filter" aria-label="Filter reports"><option value="all">All status</option><option value="Open">Open</option><option value="Resolved">Resolved</option></select></div><div id="list" class="list"></div></section></div>
+<section class="impact"><div><p class="eyebrow">OUR PURPOSE</p><h2>Cleaner cities start<br>with local action.</h2></div><p>CleanCity supports <b>United Nations Sustainable Development Goal 11</b> by making local waste issues visible and encouraging community participation in cleaner, safer neighbourhoods.</p></section>
+<footer>CleanCity · Academic Mini Project · SDG 11 <span>Built for learning and demonstration</span></footer>
+</main><div id="toast" role="status"></div><script src="app.js"></script>
+</body></html>
