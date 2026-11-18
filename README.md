@@ -26,5 +26,5 @@ HTML5, CSS3, Vanilla JavaScript, Browser Local Storage.
 This is an academic demonstration prototype. It does not send reports to a municipal authority, use GPS, authenticate users, or synchronise data between devices. A production version could add a backend database, admin roles, maps, image uploads and municipal integration.
 
 ## Student
-Moksh Jain · Enrollment No. 26714803125 · Class/Section 3I14  
-Maharaja Agrasen Institute of Technology
+- Moksh Jain: Project development, implementation and integration.
+- Seerat Talwar: Project documentation, testing and development support.
